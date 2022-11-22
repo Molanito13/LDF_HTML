@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    background-color: #F8F5F2;
+}
+
+#unete_hoy{
+    position: relative;
+    float: left;
+    background-color: #985E6D;
+}
+
+#foto_unete{
+    opacity: 40%;
+    width: 100%;
+    margin-bottom: -0.25%;
+}
+
+h1{
+    position: relative;
+    float: left;
+    margin-top: -19%;
+    margin-left: 43.5%;
+    font-size: 40px;
+    color: #e4c57e;
+    text-shadow: -1px 0 3px #EDB83D, 0 1px 3px #EDB83D, 1px 0 3px #EDB83D, 0 -1px 3px #EDB83D;
+    letter-spacing: 4px;
+}
+
+#registrate{
+    position: relative;
+    float: left;
+    margin-top:  -11%;
+    margin-left: 42%;
+    font-size: 40px;
+    padding: 0.5%;
+    letter-spacing: 4px;
+    color: #F8F5F2;
+    text-shadow: -1px 0 3px #EDB83D, 0 1px 3px #EDB83D, 1px 0 3px #EDB83D, 0 -1px 3px #EDB83D;
+    border: 2px solid #EDB83D;
+    border-radius: 10px;
+}
+
+#destacada{
+    position: relative;
+    float: left;
+    color: #000b29;
+    
+}
+
+#destacada_texto{
+    position: relative;
+    float: left;
+    width: 95%;
+    font-weight: bold;
+    font-size: 25px;
+    left: 5%;
+    margin-top: 2.5%;
+}
+
+#destacada_imagen{
+    position: relative;
+    float: left;
+    width: 15%;
+    left: 5%;
+    margin-top: 4%;
+    border: 4px solid #D70026;
+    border-radius: 5px;
+    margin-bottom: 4%;
+    transition: width 1s;
+}
+
+#destacada_imagen:hover{
+    position: relative;
+    float: left;
+    width: 18%;
+    left: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+
+#destacada_opiniones{
+    position: relative;
+    float: left;
+    width: 60%;
+    left: 10%;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+
+#destacada_titulo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #000b29;
+}
+
+#destacada_director{
+    color: #000b29;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#destacada_descripcion{
+    color: #000b29;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.destacada_comunes{
+    color: #000b29;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 0.5%;
+}
+
+#destacada_reparto{
+    color: #000b29;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+#tendencias{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#tendencias_titulo{
+    position: relative;
+    float: left;
+    width: 95%;
+    font-weight: bold;
+    font-size: 25px;
+    left: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+#tendencias_caja_imagen1{
+    position: relative;
+    float: left;
+    background-color: #985E6D;
+    width: 100%;
+    margin-bottom: -1.25%;
+}
+
+.tendencias_imagen_fondo{
+    width: 100%;
+    opacity: 40%;
+    margin-bottom: -1.22%;
+}
+
+#tendencias_imagenes1{
+    position:absolute;
+    float: left;
+    margin-top: -38%;
+    margin-left: 2%;
+    width: 20%;
+    border: 4px solid #D70026;
+    border-radius: 5px;
+    transition: transform 1s ease;
+}
+
+#tendencias_imagenes2{
+    position:absolute;
+    float: left;
+    margin-top: -38%;
+    margin-left: 28%;
+    width: 20%;
+    border: 4px solid #D70026;
+    border-radius: 5px;
+    transition: transform 1s ease;
+}
+
+#tendencias_imagenes3{
+    position:absolute;
+    float: left;
+    margin-top: -38%;
+    margin-left: 54%;
+    width: 20%;
+    border: 4px solid #D70026;
+    border-radius: 5px;
+    transition: transform 1s ease; 
+}
+
+#tendencias_imagenes1:hover, #tendencias_imagenes2:hover, #tendencias_imagenes3:hover{
+    transform: scale(1.2);
+}
+
+#tendencias_caja_imagen2{
+    position: relative;
+    float: left;
+    background-color: #985E6D;
+    width: 100%;
+    margin-bottom: -1.25%;
+}
+
+#actores{
+    width: 100%;
+}
+
+#actores_titulo{
+    position: relative;
+    float: left;
+    width: 95%;
+    font-weight: bold;
+    font-size: 25px;
+    left: 5%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+
+.actores_imagenes{
+    width: 17%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 4px solid #EDB83D;
+    border-radius: 5px;
+    transition: border 1s;
+    margin-bottom: 1%;
+}
+
+.actores_imagenes:hover{
+    border: 4px solid #D70026;
+}
+
+.actores_nombres{
+    position: relative;
+    float: left;
+    width: 17%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#anuncio {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-image: url(./img/palomitas.jpg);
+    background-size: cover;
+    background-color: #000B29;
+    padding: 1%;
+    letter-spacing: 1px;
+}
+
+#anuncio_titulo {
+    text-align: center;
+    color: #F8F5F2;
+    text-shadow: -1px 0 3px #EDB83D, 0 1px 3px #EDB83D, 1px 0 3px #EDB83D, 0 -1px 3px #EDB83D;
+    font-size: 100px;
+    padding: 1%;
+}
+
+#anuncio_ventajas {
+    margin-left: 28%;
+    margin-right: 28%;
+    background-color: #F8F5F2;
+    padding: 2%;
+    color: #000B29;
+    border: 2px solid #000B29;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+#anuncio_ventajas h3 {
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+#anuncio_ventajas ul li {
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+
+#anuncio_mas {
+    text-align: center;
+    color: #F8F5F2;
+    text-shadow: -1px 0 3px #EDB83D, 0 1px 3px #EDB83D, 1px 0 3px #EDB83D, 0 -1px 3px #EDB83D;
+    font-size: 40px;
+    padding: 2%;
+}
+
+#anuncio_registrate {
+    margin-left: 39%;
+    font-size: 70px;
+    color: #F8F5F2;
+    border: 3px solid #EDB83D;
+    border-radius: 10px;
+    padding: 0.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: text-shadow 1s;
+}
+
+#anuncio_registrate:hover {
+    text-shadow: -1px 0 5px #EDB83D, 0 1px 5px #EDB83D, 1px 0 5px #EDB83D, 0 -1px 5px #EDB83D;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 940px) {
+    .actores_imagenes {
+        width: 30%;
+        margin-right: 5%;
+        margin-left: 6.5%;
+        margin-bottom: 2%;
+    }
+
+    .actores_nombres {
+        display: none;
+    }
+
+    #anuncio_registrate {
+        margin-left: 29%;
+    }
+
+    #anuncio_ventajas ul {
+        padding: 5%;
+    }
+
+    #footer_img_logo {
+        width: 20%;
+    }
+
+    .footer_generico{
+        margin-right: -2.3%;
+    }
+
+    .footer_generico ul li {
+        margin-right: 30%;
+    }
+
+
+}
+
+
+
+
