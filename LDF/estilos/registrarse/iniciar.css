@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #D70026;
+    color: #EDB83D;
+    background-image: url("../../img/Globos.jpg");
+    background-size: cover;
+}
+
+
+fieldset{
+    margin-top: 5%;
+    position: relative;
+    float: left;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    width: 40%;
+    background-color: #000b29;
+    border-radius: 5px;
+    border: none;
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    letter-spacing: 2px;
+}
+
+.iniciar_campos{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding: 0.5%;
+}
+
+label{
+    margin-left: 10.5%;
+}
+
+.iniciar_botones{
+    margin-left: 10%;
+    margin-right: -10%;
+}
+
+#iniciar_enviar{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+    padding: 0.5%;
+    color: #000b29;
+    font-weight: bold;
+}
+
+#iniciar_registrarse{
+    font-size: 20px;
+    margin-left: 41%;
+    border: 1px solid #EDB83D;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#iniciar_recuperar{
+    font-size: 20px;
+    margin-left: 40%;
+    background-color: #EDB83D;
+    color: #000b29;
+    padding: 1%;
+}
+
+.iniciar_preguntas{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -2%;
+}

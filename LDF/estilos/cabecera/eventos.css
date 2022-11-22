@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mifuente;
+    src: url("../../fuentes/Arvo-Regular.ttf");
+}
+
+@font-face {
+    font-family: mifuente2;
+    src: url("../../fuentes/Rakkas-Regular.ttf");
+}
+
+body{
+    width: 100%;
+    background-color: rgb(92, 93, 131);
+}
+
+h1{
+    margin-bottom: 2.5%;
+    font-family: mifuente2;
+}
+
+p{
+    letter-spacing: 2px;
+    font-family: mifuente;
+}
+
+.subtitulo{
+    font-size: 18px;
+    font-family: mifuente;
+}
+
+
+
+#noticia1{
+    background-color: rgb(223, 211, 209);
+    position: relative;
+    float: left;
+    width: 25%;
+    border: 3px solid #000b29;
+    text-align: justify;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    padding: 1%;
+   
+   
+}
+
+#foto1{
+    width: 100%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+#noticia2{
+    background-color: #f8f5f2;
+    position: relative;
+    float: left;
+    width: 50%;
+    border: 3px solid #000b29;
+    text-align: justify;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    padding: 1%;
+    
+}
+
+#foto2{
+    width: 100%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+#noticia3{
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    float: left;
+    width: 15%;
+    border: 3px solid #000b29;
+    text-align: left;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    padding: 1%;
+    letter-spacing: 2px;
+   
+
+}
+
+#noticia4{
+    position: relative;
+    float: left;
+    width: 15%;
+    border: 3px solid #000b29;
+    text-align: justify;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    padding: 1%;
+    background-color: #ddd;
+}
+
+#foto4{
+    width: 100%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    
+}
+
+#noticia5{
+    position: relative;
+    float: left;
+    width: 77.5%;
+    border: 3px solid #000b29;
+    text-align: justify;
+    margin-top: -37.5%;
+    margin-left: 2.5%;
+    padding: 1%;
+    background-color: rgb(223, 255, 208);
+}
+
+#foto5{
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;  
+    margin-right: 2%; 
+}
+
+#texto5{
+    margin-top: 2.5%;
+    padding-left: 2%;
+}
+
+#noticia6{
+    position: relative;
+    float: left;
+    width: 55%;
+    border: 3px solid #000b29;
+    text-align: justify;
+    margin-left: 2.5%;
+    margin-top: -2%;
+    padding: 1%;
+    background-color:  rgb(248, 232, 244);
+    margin-bottom: 5%;
+}
+
+#foto6{
+    position: relative;
+    float: left;
+    width: 70%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;  
+    margin-right: 2%; 
+}
+
+#noticia7{
+    position: relative;
+    float: left;
+    width: 37.5%;
+    border: 3px solid #000b29;
+    text-align: justify;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: rgb(209, 187, 250);
+}
+
+#foto7{
+    position: relative;
+    float: right;
+    width: 50%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;  
+    margin-left: 2%; 
+}
+
+.titular{
+    text-align: left;
+}
+
+.fix{
+    margin-left: 0%;
+    text-decoration: none;
+    color: #000b29; 
+    font-weight: lighter; 
+}
+
+.fix:hover{
+    color: #000b29;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 1778px) {
+    .cabecera_menu {
+        margin-left: 7%;
+    }
+    #cabecera_registrar{
+        margin-left: 7%;
+    } 
+}
+
+@media screen and (min-width: 500px) and (max-width: 1346px) {
+    .cabecera_menu {
+        margin-left: 5%;
+    }
+    #cabecera_registrar{
+        margin-left: 5%;
+    } 
+}
+
+@media screen and (min-width: 500px) and (max-width: 1107px) {
+    
+    
+    .cabecera_menu {
+        margin-left: 3%;
+    }
+    #cabecera_registrar{
+        margin-left: 3%;
+        
+    } 
+}
+
+@media screen and (min-width: 500px) and (max-width: 940px) {
+
+    #logo {
+        margin-top: 2%;
+        width: 9%;
+        padding: 0% 0% 1% 0%;
+    }
+
+    #lupita {
+        visibility: hidden;
+    }
+
+    #barra_busqueda {
+        width: 80%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .cabecera_menu {
+        margin-left: 4%;
+        padding: 0% 0% 3% 0%;
+    }
+
+    #cabecera_registrar {
+        margin-left: 5%;
+        padding: 0% 0% 3% 0%;
+        border: none;
+        
+    }
+    
+    #noticia1 {
+        width: 90%;
+    } 
+
+    #noticia2 {
+        width: 90%;
+    } 
+    
+    #noticia3 {
+        width: 90%;
+    }
+    
+    #noticia4 {
+        width: 90%;
+        margin-bottom: 40%;
+    } 
+
+    #noticia5 {
+        width: 90%;
+        margin-bottom: 5%;
+    } 
+
+    #noticia6 {
+        width: 90%;
+    } 
+
+    #noticia7 {
+        width: 90%;
+        margin-bottom: 10%;
+    } 
+
+    #barra_fixed {
+        display: none;
+    }
+
+    
+    .footer_generico{
+        margin-right: -2.3%;
+    }
+
+    .footer_generico ul li {
+        margin-right: 30%;
+    }
+   
+
+    @media screen and (min-width: 500px) and (max-width: 764px) {
+        #cabecera_registrar {
+            display: none;
+        }
+    }
+}
